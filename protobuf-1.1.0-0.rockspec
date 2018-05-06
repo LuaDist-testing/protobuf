@@ -1,15 +1,15 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "protobuf"
-version = "1.0.0-0"
+version = "1.1.0-0"
 -- LuaDist source
 source = {
-  tag = "1.0.0-0",
+  tag = "1.1.0-0",
   url = "git://github.com/LuaDist-testing/protobuf.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/djungelorm/protobuf-lua/releases/download/v1.0.0/protobuf-1.0.0-0.tar.gz"
+--   url = "https://github.com/djungelorm/protobuf-lua/releases/download/v1.1.0/protobuf-1.1.0-0.tar.gz"
 -- }
 description = {
   summary = "protobuf library and compiler plugin",
@@ -17,7 +17,7 @@ description = {
   license = "MIT"
 }
 dependencies = {
-  "lua ~> 5.2"
+  "lua >= 5.1, < 5.3"
 }
 build = {
   type = "builtin",
